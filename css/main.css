@@ -34,12 +34,14 @@ figure:first-child {
   transform: rotate(-12deg);
   top: 100px;
   left: 20%;
+  z-index: 1;
 }
 
 figure:nth-child(2) {
   transform: rotate(5deg);
   top: 150px;
   left: 30%;
+  z-index: 1;
 }
 
 figure:last-child {
