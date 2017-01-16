@@ -41,18 +41,18 @@ figure:nth-child(2) {
   transform: rotate(5deg);
   top: 150px;
   left: 30%;
-  z-index: 1;
+  z-index: 3;
 }
 
 figure:last-child {
   transform: rotate(33deg);
   top: 100px;
   left: 40%;
-
+  z-index: 2;
 }
 
 .polaroid:hover {
   box-shadow: 1px 4px 20px rgba(0, 0, 0, 1);
   transform: rotate(0);
-  z-index: 1;
+  z-index: 1000;
 }
