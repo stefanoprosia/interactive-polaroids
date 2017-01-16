@@ -5,14 +5,15 @@ html {
 }
 
 .polaroid {
-  margin: 0;
+  margin: 0 auto;
   padding: 10px;
   width: 250px;
 
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
-  display: inline-block;
+  position: relative;
+  top: 5em;
 }
 
 .polaroid > img {
