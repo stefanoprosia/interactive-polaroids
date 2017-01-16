@@ -52,4 +52,5 @@ figure:last-child {
 .polaroid:hover {
   box-shadow: 1px 4px 20px rgba(0, 0, 0, 1);
   transform: rotate(0);
+  z-index: 1;
 }
